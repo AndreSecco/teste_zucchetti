@@ -1,0 +1,9 @@
+.btn-filtrar {
+    background: linear-gradient(45deg, #ff7a00, #ff0000);
+    padding: 10px 40px;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    transition: 0.5s;
+    color: #fff;
+}

@@ -1,0 +1,28 @@
+.nav-bar {
+    height: 100px;
+    background: #fafafa;
+    box-shadow: 6px -3px 6px 3px #0000008c;
+    
+}
+
+.col-menus {
+    height: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.title-nav-menu {
+    margin-right: 50px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #141414
+}
+
+.col-logo {
+    padding-left: 30px;
+}
+
+.row {
+    margin-right: 0px;
+}

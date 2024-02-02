@@ -1,0 +1,48 @@
+.btn-lancar-venda{
+    background: linear-gradient(45deg, #ff7a00, #ff0000);
+    padding: 20px 60px;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    transition: 0.5s;
+    color: #fff;
+}
+
+.div-total-venda {
+    height: 150px;
+    background: linear-gradient(45deg, #ff7a00, #ff0000);
+    bottom: 5px;
+    position: absolute;
+    width: 500px;
+    border-top-right-radius: 75px;
+    border-top-left-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 45px;
+}
+
+.desc-total-venda {
+    color: #fff;
+    font-size: 40px;
+}
+
+.div-itens-lancados {
+    height: 350px;
+    overflow: auto;
+}
+
+.botoes-venda {
+    bottom: 0px;
+    right: 50px;
+    position: absolute;
+    margin-left: 50px;
+}
+
+.forma-pagamento-venda {
+    bottom: 75px;
+    right: 50px;
+    width: 450px;
+    position: absolute;
+}
+
+@import "vue-select/dist/vue-select.css";

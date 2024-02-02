@@ -1,0 +1,45 @@
+.input-form {
+    border-radius: 25px;
+    border: none;
+    height: 55px;
+    padding-left: 20px;
+}
+
+.btn-form {
+    border-radius: 25px;
+    border: none;
+    height: 55px;
+    width: 55px;
+}
+
+.btn-cadastrar {
+    background: linear-gradient(45deg, #175f01, #00c78b);
+    padding: 20px 60px;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.btn-editar {
+    background: linear-gradient(45deg, #07015f, #00a9c7);
+    padding: 20px 60px;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    transition: 0.5s;
+    margin-right: 9px;
+}
+
+.btn-cancelar {
+    background: linear-gradient(45deg, #5f0101, #c52f01);
+    padding: 20px 60px;
+    border: none;
+    border-radius: 25px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.btn-cadastrar:hover {
+    padding: 22px 63px;
+}
