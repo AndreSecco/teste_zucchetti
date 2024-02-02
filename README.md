@@ -24,7 +24,7 @@ npm run serve
 
 Isto irá executar o frontend em sua máquina local
 
-Como a conexão do fronend com o backend vai depender da sua arvore de arquivos, entre no arquivo:
+Como a conexão do frotend com o backend vai depender da sua arvore de arquivos, entre no arquivo:
 
 ```
 frontend/src/common/api.js
