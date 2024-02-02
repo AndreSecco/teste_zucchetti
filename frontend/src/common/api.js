@@ -3,7 +3,7 @@ import axios from 'axios'
 const getApiUrl = () => {
     const currentHost = window.location.hostname
 
-    if(currentHost == 'localhost') { return 'http://localhost/teste/backend' }
+    if(currentHost == 'localhost') { return 'http://localhost/teste_zucchetti/backend' }
     if(currentHost.includes('andrecode.com.br')) { return 'https://andrecode.com.br/teste_zucchetti/backend' }
 }
 

@@ -11,6 +11,7 @@ Primeiro é necessário realizar o clone deste projeto em uma pasta em seu compu
 Após realizar o clone deste projeto, realize os comando s a seguir:
 
 ```
+cd teste_zucchetti
 cd frontend
 npm install
 ```
@@ -22,6 +23,14 @@ npm run serve
 ```
 
 Isto irá executar o frontend em sua máquina local
+
+Como a conexão do fronend com o backend vai depender da sua arvore de arquivos, entre no arquivo:
+
+```
+frontend/src/common/api.js
+```
+
+Na função 'getApiUrl()', verifiquei se o caminho para a pasta backend está direcionada corretamente onde os seus arquivos estão.
 
 #### BackEnd
 
